@@ -1,7 +1,11 @@
+import { Filters } from './Filters';
+import './bilan.css';
+
 export const Bilan = () => {
   return (
-    <div>
-      <h1>Bilan</h1>
+    <div className='bilan'>
+      <Filters />
+      <div className='bilan-content'></div>
     </div>
   );
 };
